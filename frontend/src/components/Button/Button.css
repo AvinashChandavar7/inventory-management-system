@@ -1,0 +1,30 @@
+.add-product__button,
+.product-list__button,
+.add-category__button,
+.add-category__edit,
+.add-category__delete {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  color: #000;
+  background-color: #0bba22;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+}
+
+.add-category__button {
+  color: #fff;
+  background-color: #000;
+}
+
+.add-category__edit {
+  margin: 0rem;
+  padding: 0.5rem 3rem;
+}
+
+.add-category__delete {
+  color: #fff;
+  background-color: #d94a4c;
+  margin: 0rem;
+  padding: 0.5rem 3rem;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "inventory-management-system",
+  "version": "1.0.0",
+  "description": "Inventory Management System",
+  "main": "index.js",
+  "author": "Avinash",
+  "scripts": {
+    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm start\"",
+    "build": "cd frontend && npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^6.2.2"
+  }
+}
